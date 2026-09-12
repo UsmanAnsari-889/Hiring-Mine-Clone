@@ -987,7 +987,14 @@ Hero-7
 .hero-7 {
   width: 100%;
   height: auto;
+  display: flex;
   background-color: #212126;
+  justify-content: center;
+}
+
+.hero-7-content {
+  width: 90%;
+  height: auto;
 }
 
 .hero-7-head {
@@ -1014,9 +1021,10 @@ Hero-7
   line-height: 25px;
 }
 
-.hero-6-img {
+.hero-7-img {
   width: 100%;
   height: auto;
+  justify-content: center;
   padding-top: 60px;
 }
 
